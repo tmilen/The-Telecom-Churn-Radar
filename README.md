@@ -4,7 +4,7 @@ A machine learning-powered web application that predicts whether a telecom custo
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Customer churn is a critical problem in the telecom industry. Identifying customers who are likely to leave allows businesses to take proactive actions to improve retention.
 
@@ -16,7 +16,7 @@ This project builds a complete end-to-end machine learning solution that:
 
 ---
 
-## 🧠 Model Development
+## Model Development
 
 Three classification models were implemented and compared:
 
@@ -36,7 +36,7 @@ Logistic Regression was selected as the final model due to its strong performanc
 
 ---
 
-## 📉 Overfitting Handling
+## Overfitting Handling
 
 The dataset contains only **150 samples**, which increases the risk of overfitting.
 
@@ -54,7 +54,7 @@ The small gap (~5%) indicates **mild overfitting**, which is acceptable given th
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -69,7 +69,7 @@ All preprocessing steps were integrated using a **Pipeline** to ensure consisten
 
 ---
 
-## 🌐 Web Application (Streamlit)
+## Web Application (Streamlit)
 
 A simple and interactive web interface was built using **Streamlit**, allowing users to:
 
@@ -82,7 +82,7 @@ A simple and interactive web interface was built using **Streamlit**, allowing u
 
 ---
 
-## 📊 Target Graph
+## Target Graph
 
 The application includes a **Feature Importance Chart**, showing which factors most influence churn prediction.
 
@@ -92,21 +92,7 @@ This helps in understanding:
 
 ---
 
-## 📁 Project Structure
-
-THE-TELECOM-CHURN-RADAR/
-│
-├── notebooks/
-│ └── The Telecom Churn Radar.ipynb
-│
-├── app.py
-├── churn_model.pkl
-├── README.md
-
-
----
-
-## ▶️ How to Run the Application
+## How to Run the Application
 
 ### 1. Clone the repository in local
 
