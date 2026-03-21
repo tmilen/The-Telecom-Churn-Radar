@@ -56,16 +56,11 @@ The small gap (~5%) indicates **mild overfitting**, which is acceptable given th
 
 ## Data Preprocessing
 
-The following preprocessing steps were applied:
+The dataset was preprocessed to ensure it was suitable for modeling while preserving its underlying patterns. Missing values in invoice-related columns were filled with zero, as they indicate no generated invoices. For other numerical features with few missing values, the median was used to maintain data distribution.
 
-- Missing values handled based on business meaning:
-  - Invoice-related columns → filled with 0
-  - Numerical features → filled with median
-- Categorical variables → One-Hot Encoding
-- Numerical features → StandardScaler
-- Date columns → removed (for simplicity)
+Categorical variables were encoded using One-Hot Encoding, and numerical features were scaled using StandardScaler to improve model performance. Date-related columns were removed for simplicity, as they were not directly suitable for modeling.
 
-All preprocessing steps were integrated using a **Pipeline** to ensure consistency and avoid data leakage.
+All preprocessing steps were implemented using a pipeline to ensure consistency and prevent data leakage.
 
 ---
 
@@ -88,9 +83,7 @@ A simple and interactive web interface was built using **Streamlit**, allowing u
 
 The application includes a **Feature Importance Chart**, showing which factors most influence churn prediction.
 
-This helps in understanding:
-- Customer behavior patterns
-- Key drivers of churn
+This helps in understanding customer behavior patterns and key drivers of churn.
 
 ---
 
