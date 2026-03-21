@@ -1,4 +1,4 @@
-# The-Telecom-Churn-Radar
+<img width="2558" height="1465" alt="image" src="https://github.com/user-attachments/assets/cf6656b7-5f09-4a1f-a759-2a439c914a47" /># The-Telecom-Churn-Radar
 
 A machine learning-powered web application that predicts whether a telecom customer is likely to churn based on behavioral, service, and financial data.
 
@@ -70,6 +70,8 @@ All preprocessing steps were integrated using a **Pipeline** to ensure consisten
 ---
 
 ## Web Application (Streamlit)
+
+[Visit the live website](https://telecom-churn-radar.streamlit.app/)
 
 A simple and interactive web interface was built using **Streamlit**, allowing users to:
 
